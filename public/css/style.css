@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    position: relative;
+}
+
+input{
+    width: 350px;
+    padding: 10px;
+    padding-right: 60px;
+    border-radius: 5px 0 0 5px;
+    border: 0;
+    outline: none;
+}
+button{
+    padding: 10px;
+    border: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0 3px 3px 0;
+
+}
+
+nav.color {
+    background-color: rgb(233, 233, 1);
+}
+
+.fa-bars{
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px;
+    text-align: center;
+
+
+}
+.hamburguesa{
+    text-align: center;
+}
+
+
+.banner{
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.logo{
+    max-width: 150px;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-list2{
+    display: flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+.nav{
+
+    padding-left: 50%;
+    text-align: right;
+}
+
+.secciones{
+    display: flex;
+}
+
+
+
+.nav-list2 li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
+
+.Ofertas{
+    display: flex;
+}
+
+.precioDescuento{
+    text-align: left;
+}
+.descuento{
+    color:  #4ea93b;
+}
+.flex-container{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards{
+    width: 100px;
+
+    padding: 9px;
+    padding-right: 2px;
+    margin: 10px;
+    border: 2px #ccc solid;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 4px #888888;
+}
+
+.cards img{
+    width: 150px;
+    border-bottom: 1px solid #ccc;
+}
+
+.truck{
+
+    left: 300px;
+    bottom: 20px;
+    color: #4ea93b;
+    box-shadow: 0 0 2px #2fc710;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productos{
+    padding-top: 10px;
+}
+
+.footer{
+    padding: 5px;
+    text-align: center;
+
+}
+
+@media(min-width:460px){
+    .flex-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards{
+        width: 35%;
+    }
+
+}
+
+@media  screen and(max-width: 550) {
+    .hamburguesa{
+        display: block;
+    }
+    
+}
