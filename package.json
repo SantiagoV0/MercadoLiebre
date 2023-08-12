@@ -1,8 +1,8 @@
 {
-  "name": "clase-16",
+  "name": "Mercado-Liebre",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "nodemon src/app.js",
     "start": "node src/app.js"
