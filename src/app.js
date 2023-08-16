@@ -4,6 +4,7 @@
 const express = require("express");
 const app = express();
 
+
 const path = require("path")
 
 //Variable de entorno, si no, se usa el 3001
@@ -26,6 +27,8 @@ app.get("/", (req,res) => {
     res.sendFile(path.join(__dirname,"./views/home.html"));
 });
 
+
 app.get('/login', (req, res)=>{
     res.sendFile(path.resolve(__dirname, './views/login.html'))
 })
+

@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+
 }
 
+body{
+    background-color: #ebebeb;
+}
 
 .container{
     position: relative;
@@ -104,8 +108,12 @@ nav.color {
     color: #1c1c1c;
 }
 
-.Ofertas{
+.flex-container-cards{
     display: flex;
+}
+
+.container-cards{
+    padding: 34px;
 }
 
 .precioDescuento{
@@ -114,26 +122,27 @@ nav.color {
 .descuento{
     color:  #4ea93b;
 }
-.flex-container{
+.flex-container-cards{
     gap: 10px;
+    padding: 10px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+
+
 }
 .cards{
-    width: 100px;
-
     padding: 9px;
-    padding-right: 2px;
+    padding-right: 1px;
     margin: 10px;
     border: 2px #ccc solid;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 3px 4px #888888;
+    background-color: white;
+
 }
 
 .cards img{
-    width: 150px;
+    width: 250px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -154,7 +163,9 @@ nav.color {
 .productos{
     padding-top: 10px;
 }
-
+footer{
+    background-color: white;
+}
 .container-footer{
     display: flex;
     justify-content: space-between;
@@ -170,13 +181,19 @@ nav.color {
     text-align: center;
 }
 
-@media(min-width:460px){
+@media(max-width:360px){
     .flex-container{
         display: flex;
-        flex-wrap: wrap;
+
+        flex-direction: column;
     }
     .cards{
         width: 35%;
+    }
+
+    header {
+        padding: 20px 20px 10px 20px;
+        height: 225px;
     }
 
 }
